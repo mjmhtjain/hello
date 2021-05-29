@@ -2,6 +2,4 @@ module example.com/hello
 
 go 1.16
 
-require example.com/greetings v0.0.0-00010101000000-000000000000
-
-replace example.com/greetings => ../go-greetings
+require github.com/mjmhtjain/greetings v0.0.0-20210529112137-cdb5b4f6aa6b // indirect
